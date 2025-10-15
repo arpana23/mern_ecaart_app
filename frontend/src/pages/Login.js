@@ -66,7 +66,7 @@ const Login = () => {
                         <img src={loginIcons} alt='login icons'/>
                     </div>
 
-                    <form className='pt-6 flex flex-col gap-2' onSubmit={handleSubmit}>
+                    <form className='pt-6 flex flex-col gap-2' onSubmit={handleSubmit} autoComplete="off">
                         <div className='grid'>
                             <label>Email : </label>
                             <div className='bg-slate-100 p-2'>
