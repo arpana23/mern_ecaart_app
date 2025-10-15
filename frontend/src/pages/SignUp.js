@@ -95,7 +95,7 @@ const SignUp = () => {
                         </form>
                     </div>
 
-                    <form className='pt-6 flex flex-col gap-2' onSubmit={handleSubmit}>
+                    <form className='pt-6 flex flex-col gap-2' onSubmit={handleSubmit} autoComplete="off">
                       <div className='grid'>
                               <label>Name : </label>
                               <div className='bg-slate-100 p-2'>
